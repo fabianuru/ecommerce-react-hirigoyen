@@ -1,0 +1,43 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em 3em;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    .categories{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2em;
+
+        .category {
+            cursor: pointer;
+        }
+        
+        .category:hover{
+            color: green;
+            text-decoration: underline;
+            transition: 1 ease-in-out;
+
+        }
+    }   
+    .title-brand{
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    .cartwidget{
+        display: flex;
+        align-items: center;
+        gap: 0.2em;
+        
+ 
+        
+        .icon-cartwidget{
+            font-size: 1.5em;
+        }
+    }
+}
